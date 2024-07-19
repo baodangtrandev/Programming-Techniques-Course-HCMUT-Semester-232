@@ -1,0 +1,135 @@
+Configuration[
+MAP_NUM_ROWS=8
+MAP_NUM_COLS=1
+MAX_NUM_MOVING_OBJECTS=9
+NUM_WALLS=0
+ARRAY_WALLS=[]
+NUM_FAKE_WALLS=10
+ARRAY_FAKE_WALLS=[(7,0);(4,0);(0,0);(4,0);(1,0);(0,0);(1,0);(2,0);(2,0);(2,0)]
+SHERLOCK_MOVING_RULE=URLDR
+SHERLOCK_INIT_POS=(3,0)
+SHERLOCK_INIT_HP=348
+SHERLOCK_INIT_EXP=645
+WATSON_MOVING_RULE=RDDDDUUU
+WATSON_INIT_POS=(5,0)
+WATSON_INIT_HP=77
+WATSON_INIT_EXP=191
+CRIMINAL_INIT_POS=(6,0)
+NUM_STEPS=24
+]
+
+*********************************************************
+ROUND : 0 - TURN : 0
+      0|
+  -----|
+  -----|
+  -----|
+      S|
+  -----|
+      W|
+       |
+      C|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=9;Criminal[index=0;pos=(7,0)];Sherlock[index=1;pos=(3,0);moving_rule=URLDR];Watson[index=2;pos=(5,0);moving_rule=RDDDDUUU]]
+Sherlock HP_348 EXP_645
+Watson HP_77 EXP_191
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 0 - TURN : 1
+      0|
+  -----|
+  -----|
+      S|
+       |
+  -----|
+      W|
+       |
+      C|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=9;Criminal[index=0;pos=(7,0)];Sherlock[index=1;pos=(2,0);moving_rule=URLDR];Watson[index=2;pos=(5,0);moving_rule=RDDDDUUU]]
+Sherlock HP_348 EXP_645
+Watson HP_77 EXP_191
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 0 - TURN : 2
+      0|
+  -----|
+  -----|
+      S|
+       |
+  -----|
+      W|
+       |
+      C|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=9;Criminal[index=0;pos=(7,0)];Sherlock[index=1;pos=(2,0);moving_rule=URLDR];Watson[index=2;pos=(5,0);moving_rule=RDDDDUUU]]
+Sherlock HP_348 EXP_645
+Watson HP_77 EXP_191
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 1 - TURN : 0
+      0|
+  -----|
+  -----|
+      S|
+       |
+  -----|
+      W|
+      C|
+  -----|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=9;Criminal[index=0;pos=(6,0)];Sherlock[index=1;pos=(2,0);moving_rule=URLDR];Watson[index=2;pos=(5,0);moving_rule=RDDDDUUU]]
+Sherlock HP_348 EXP_645
+Watson HP_77 EXP_191
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 1 - TURN : 1
+      0|
+  -----|
+  -----|
+      S|
+       |
+  -----|
+      W|
+      C|
+  -----|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=9;Criminal[index=0;pos=(6,0)];Sherlock[index=1;pos=(2,0);moving_rule=URLDR];Watson[index=2;pos=(5,0);moving_rule=RDDDDUUU]]
+Sherlock HP_348 EXP_645
+Watson HP_77 EXP_191
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 1 - TURN : 2
+      0|
+  -----|
+  -----|
+     CW|
+       |
+  -----|
+       |
+      C|
+  -----|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=9;Criminal[index=0;pos=(6,0)];Sherlock[index=1;pos=(2,0);moving_rule=URLDR];Watson[index=2;pos=(6,0);moving_rule=RDDDDUUU]]
+Sherlock HP_348 EXP_645
+Watson HP_77 EXP_191
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+---------------
+RESULT : The Criminal was caught

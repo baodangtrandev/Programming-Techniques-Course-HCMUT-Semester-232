@@ -1,0 +1,33 @@
+Configuration[
+MAP_NUM_ROWS=1
+MAP_NUM_COLS=9
+MAX_NUM_MOVING_OBJECTS=3
+NUM_WALLS=16
+ARRAY_WALLS=[(0,1);(0,6);(0,7);(0,0);(0,0);(0,0);(0,6);(0,6);(0,0);(0,0);(0,7);(0,0);(0,3);(0,6);(0,0);(0,1)]
+NUM_FAKE_WALLS=9
+ARRAY_FAKE_WALLS=[(0,0);(0,3);(0,2);(0,7);(0,0);(0,0);(0,3);(0,3);(0,0)]
+SHERLOCK_MOVING_RULE=LDDRUD
+SHERLOCK_INIT_POS=(0,8)
+SHERLOCK_INIT_HP=169
+SHERLOCK_INIT_EXP=5
+WATSON_MOVING_RULE=L
+WATSON_INIT_POS=(0,4)
+WATSON_INIT_HP=476
+WATSON_INIT_EXP=632
+CRIMINAL_INIT_POS=(0,5)
+NUM_STEPS=26
+]
+
+*********************************************************
+ROUND : 0 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  IIIII|  IIIII|  -----|  IIIII|     CW|       |  IIIII|  IIIII|      S|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=3;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(0,8);moving_rule=LDDRUD];Watson[index=2;pos=(0,4);moving_rule=L]]
+Sherlock HP_169 EXP_5
+Watson HP_476 EXP_632
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+---------------
+RESULT : The Criminal was caught

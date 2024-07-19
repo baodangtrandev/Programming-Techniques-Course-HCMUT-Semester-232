@@ -1,0 +1,601 @@
+Configuration[
+MAP_NUM_ROWS=9
+MAP_NUM_COLS=9
+MAX_NUM_MOVING_OBJECTS=1
+NUM_WALLS=5
+ARRAY_WALLS=[(8,7);(0,1);(5,8);(2,8);(2,8)]
+NUM_FAKE_WALLS=13
+ARRAY_FAKE_WALLS=[(0,0);(2,4);(6,1);(0,8);(7,1);(6,0);(7,6);(8,6);(7,4);(7,5);(4,1);(1,4);(1,4)]
+SHERLOCK_MOVING_RULE=RDUURL
+SHERLOCK_INIT_POS=(1,0)
+SHERLOCK_INIT_HP=435
+SHERLOCK_INIT_EXP=576
+WATSON_MOVING_RULE=DDUU
+WATSON_INIT_POS=(7,7)
+WATSON_INIT_HP=446
+WATSON_INIT_EXP=61
+CRIMINAL_INIT_POS=(4,5)
+NUM_STEPS=29
+]
+
+*********************************************************
+ROUND : 0 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |       |       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |      C|       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(3,5)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 1 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |       |       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|      C|       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(2,5)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 2 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |       |       |       |       |       |  -----|
+       |       |       |       |  -----|      C|       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(1,5)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 3 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |       |       |      C|       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,5)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 4 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |       |      C|       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,4)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 5 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |      C|       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,3)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 6 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|      C|       |       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,2)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 7 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |      C|       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,3)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 8 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|      C|       |       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,2)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 9 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |      C|       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,3)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 10 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|      C|       |       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,2)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 11 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |      C|       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,3)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 12 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|      C|       |       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,2)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 13 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |      C|       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,3)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 14 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|      C|       |       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,2)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 15 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |      C|       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,3)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 16 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|      C|       |       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,2)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 17 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |      C|       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,3)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 18 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|      C|       |       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,2)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 19 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |      C|       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,3)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 20 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|      C|       |       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,2)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 21 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |      C|       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,3)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 22 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|      C|       |       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,2)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 23 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |      C|       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,3)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 24 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|      C|       |       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,2)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 25 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |      C|       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,3)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 26 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|      C|       |       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,2)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 27 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|       |      C|       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,3)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 28 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|      8|
+  -----|  IIIII|      C|       |       |       |       |       |  -----|
+       |       |       |       |  -----|       |       |       |       |
+       |       |       |       |  -----|       |       |       |  IIIII|
+       |       |       |       |       |       |       |       |       |
+       |  -----|       |       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |  IIIII|
+  -----|  -----|       |       |       |       |       |       |       |
+       |  -----|       |       |  -----|  -----|  -----|       |       |
+       |       |       |       |       |       |  -----|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=1;capacity=1;Criminal[index=0;pos=(0,2)]]
+Sherlock HP_435 EXP_576
+Watson HP_446 EXP_61
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+---------------
+RESULT : The Criminal escaped

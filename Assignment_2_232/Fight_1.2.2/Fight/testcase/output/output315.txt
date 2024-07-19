@@ -1,0 +1,40 @@
+Configuration[
+MAP_NUM_ROWS=8
+MAP_NUM_COLS=8
+MAX_NUM_MOVING_OBJECTS=8
+NUM_WALLS=6
+ARRAY_WALLS=[(5,6);(3,7);(5,1);(6,1);(2,3);(2,3)]
+NUM_FAKE_WALLS=2
+ARRAY_FAKE_WALLS=[(4,1);(4,1)]
+SHERLOCK_MOVING_RULE=URRDLUU
+SHERLOCK_INIT_POS=(0,2)
+SHERLOCK_INIT_HP=270
+SHERLOCK_INIT_EXP=777
+WATSON_MOVING_RULE=RRRR
+WATSON_INIT_POS=(3,6)
+WATSON_INIT_HP=132
+WATSON_INIT_EXP=115
+CRIMINAL_INIT_POS=(0,3)
+NUM_STEPS=22
+]
+
+*********************************************************
+ROUND : 0 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+       |       |     CS|       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+       |       |       |  IIIII|       |       |       |       |
+       |       |       |       |       |       |      W|  IIIII|
+       |  -----|       |       |       |       |       |       |
+       |  IIIII|       |       |       |       |  IIIII|       |
+       |  IIIII|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=8;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(0,2);moving_rule=URRDLUU];Watson[index=2;pos=(3,6);moving_rule=RRRR]]
+Sherlock HP_270 EXP_777
+Watson HP_132 EXP_115
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+---------------
+RESULT : The Criminal was caught

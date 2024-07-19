@@ -1,0 +1,2559 @@
+Configuration[
+MAP_NUM_ROWS=7
+MAP_NUM_COLS=8
+MAX_NUM_MOVING_OBJECTS=6
+NUM_WALLS=21
+ARRAY_WALLS=[(1,2);(0,1);(6,0);(1,6);(1,7);(0,4);(0,7);(6,2);(6,5);(2,1);(0,7);(6,4);(0,0);(1,5);(2,6);(6,6);(3,5);(2,6);(4,0);(0,4);(0,4)]
+NUM_FAKE_WALLS=7
+ARRAY_FAKE_WALLS=[(1,6);(2,5);(0,1);(4,1);(0,3);(0,4);(0,4)]
+SHERLOCK_MOVING_RULE=LRUUR
+SHERLOCK_INIT_POS=(4,3)
+SHERLOCK_INIT_HP=125
+SHERLOCK_INIT_EXP=520
+WATSON_MOVING_RULE=DDLL
+WATSON_INIT_POS=(0,5)
+WATSON_INIT_HP=66
+WATSON_INIT_EXP=585
+CRIMINAL_INIT_POS=(3,4)
+NUM_STEPS=26
+]
+
+*********************************************************
+ROUND : 0 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |      C|  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |      S|       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=6;Criminal[index=0;pos=(2,4)];Sherlock[index=1;pos=(4,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 0 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |      C|  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|      S|       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=6;Criminal[index=0;pos=(2,4)];Sherlock[index=1;pos=(4,2);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 0 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |      C|  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|      S|       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=6;Criminal[index=0;pos=(2,4)];Sherlock[index=1;pos=(4,2);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 1 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      C|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|      S|       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=6;Criminal[index=0;pos=(1,4)];Sherlock[index=1;pos=(4,2);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 1 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      C|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |      S|       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=6;Criminal[index=0;pos=(1,4)];Sherlock[index=1;pos=(4,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 1 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      C|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |      S|       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=6;Criminal[index=0;pos=(1,4)];Sherlock[index=1;pos=(4,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 2 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      C|      0|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |      S|       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(1,3)];Sherlock[index=1;pos=(4,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(1,4);type=C;dist=]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 2 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      C|      0|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |      S|       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(1,3)];Sherlock[index=1;pos=(3,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(1,4);type=C;dist=]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 2 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      C|      0|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |      S|       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(1,3)];Sherlock[index=1;pos=(3,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(1,4);type=C;dist=]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 2 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|     C0|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |      S|       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(1,3)];Sherlock[index=1;pos=(3,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(1,3);type=C;dist=]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 3 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |      C|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      0|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |      S|       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(3,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(1,3);type=C;dist=]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 3 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |      C|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      0|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |      S|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(2,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(1,3);type=C;dist=]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 3 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |      C|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      0|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |      S|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(2,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(1,3);type=C;dist=]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 3 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |     C0|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |      S|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(2,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 4 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|      0|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |      S|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(2,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 4 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|      0|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |      S|  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(2,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 4 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|      0|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |      S|  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(2,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 4 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |      S|  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(2,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 5 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     02|      C|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |      S|  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(2,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(0,2);type=W;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 5 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     02|      C|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |      S|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(2,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(0,2);type=W;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 5 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     02|      C|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |      S|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(2,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(0,2);type=W;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 5 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      2|     C0|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |      S|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(2,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,2);type=W;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 5 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |      S|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(2,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 6 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |      S|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(2,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 6 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |      S|  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(2,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 6 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |      S|  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(2,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 6 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|      2|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |      S|  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(2,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 6 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      2|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |      S|  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(2,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 7 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      2|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |      S|  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(2,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 7 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 7 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 7 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |     C0|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 7 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 8 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|    023|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,3);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 8 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|    023|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,3);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 8 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|    023|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,3);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 8 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|     23|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,3);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 8 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|      3|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,3);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_66 EXP_585
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 8 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_57 EXP_498
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 9 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_57 EXP_498
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 9 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_57 EXP_498
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 9 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_49 EXP_424
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 9 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |     C0|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_49 EXP_424
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 9 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_49 EXP_424
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 9 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_49 EXP_424
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 10 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_49 EXP_424
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 10 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      S|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=5]]
+Sherlock HP_125 EXP_520
+Watson HP_49 EXP_424
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 10 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      S|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=5]]
+Sherlock HP_125 EXP_520
+Watson HP_49 EXP_424
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 10 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|      2|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      S|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=5]]
+Sherlock HP_125 EXP_520
+Watson HP_49 EXP_424
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 10 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|     S2|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(2,5);type=SW;dist=5]]
+Sherlock HP_125 EXP_520
+Watson HP_49 EXP_424
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 10 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|     S2|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_42 EXP_361
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 11 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|     S2|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_42 EXP_361
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 11 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_42 EXP_361
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 11 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_36 EXP_307
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 11 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |     C0|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_36 EXP_307
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 11 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_36 EXP_307
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 11 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_36 EXP_307
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 12 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_36 EXP_307
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 12 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_36 EXP_307
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 12 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_36 EXP_307
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 12 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|      2|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_36 EXP_307
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 12 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_36 EXP_307
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 12 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_31 EXP_261
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 13 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_31 EXP_261
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 13 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_31 EXP_261
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 13 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_27 EXP_222
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 13 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |     C0|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_27 EXP_222
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 13 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_27 EXP_222
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 13 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_27 EXP_222
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 14 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_27 EXP_222
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 14 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_27 EXP_222
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 14 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_27 EXP_222
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 14 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|      2|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_27 EXP_222
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 14 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_27 EXP_222
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 14 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_23 EXP_189
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 15 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_23 EXP_189
+SherlockBag : Bag[count=1;MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 15 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|     S2|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_23 EXP_189
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 15 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|     S2|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_20 EXP_161
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 15 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |     C0|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|     S2|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_20 EXP_161
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 15 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      S|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,5);type=SW;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_20 EXP_161
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 15 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |   C023|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      S|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,3);type=SW;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_20 EXP_161
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 16 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|    023|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      S|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,3);type=SW;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_20 EXP_161
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 16 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|    023|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,3);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_20 EXP_161
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 16 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|    023|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,3);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_20 EXP_161
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 16 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|     23|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,3);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_20 EXP_161
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 16 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|      3|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,3);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_20 EXP_161
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 16 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_17 EXP_137
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 17 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_17 EXP_137
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 17 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_17 EXP_137
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 17 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_15 EXP_117
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 17 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |     C0|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_15 EXP_117
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 17 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_15 EXP_117
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 17 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_15 EXP_117
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 18 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_15 EXP_117
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 18 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_15 EXP_117
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 18 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_15 EXP_117
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 18 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|      2|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_15 EXP_117
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 18 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_15 EXP_117
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 18 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_13 EXP_100
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 19 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_13 EXP_100
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 19 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_13 EXP_100
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 19 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_12 EXP_85
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 19 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |     C0|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_12 EXP_85
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 19 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_12 EXP_85
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 19 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_12 EXP_85
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 20 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_12 EXP_85
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 20 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      S|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=5]]
+Sherlock HP_125 EXP_520
+Watson HP_12 EXP_85
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 20 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      S|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=5]]
+Sherlock HP_125 EXP_520
+Watson HP_12 EXP_85
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 20 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|      2|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      S|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=5]]
+Sherlock HP_125 EXP_520
+Watson HP_12 EXP_85
+SherlockBag : Bag[count=2;MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 20 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|     S2|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(2,5);type=SW;dist=5]]
+Sherlock HP_125 EXP_520
+Watson HP_12 EXP_85
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 20 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|     S2|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_11 EXP_73
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 21 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|     S2|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_11 EXP_73
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 21 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_11 EXP_73
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 21 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_10 EXP_63
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 21 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |     C0|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_10 EXP_63
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 21 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_10 EXP_63
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 21 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_10 EXP_63
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 22 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_10 EXP_63
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 22 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_10 EXP_63
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 22 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_10 EXP_63
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 22 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|      2|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_10 EXP_63
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 22 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_10 EXP_63
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 22 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_9 EXP_54
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 23 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_9 EXP_54
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 23 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_9 EXP_54
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 23 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_8 EXP_46
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 23 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |     C0|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_8 EXP_46
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 23 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_8 EXP_46
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 23 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_8 EXP_46
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 24 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_8 EXP_46
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 24 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_8 EXP_46
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 24 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      C|     02|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_8 EXP_46
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 24 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|      2|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|       |      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_8 EXP_46
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 24 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |      3|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(2,5);type=SW;dist=4]]
+Sherlock HP_125 EXP_520
+Watson HP_8 EXP_46
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 24 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|     C0|  -----|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,2)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_7 EXP_40
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 25 - TURN : 0
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      2|      S|  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,4);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=2]]
+Sherlock HP_125 EXP_520
+Watson HP_7 EXP_40
+SherlockBag : Bag[count=3;MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 25 - TURN : 1
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|     S2|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_7 EXP_40
+SherlockBag : Bag[count=4;MagicBook,MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 25 - TURN : 2
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|      0|      C|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|     S2|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,2);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_6 EXP_34
+SherlockBag : Bag[count=4;MagicBook,MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 25 - TURN : 3
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |     C0|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|     S2|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(1,3);type=W;dist=3];RobotSW[pos=(0,5);type=SW;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_6 EXP_34
+SherlockBag : Bag[count=4;MagicBook,MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 25 - TURN : 4
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |    C02|  IIIII|     W3|       |  IIIII|
+       |       |  IIIII|      S|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,5);type=SW;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_6 EXP_34
+SherlockBag : Bag[count=4;MagicBook,MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 25 - TURN : 5
+      0|      1|      2|      3|      4|      5|      6|      7|
+  IIIII|  IIIII|       |   C023|  IIIII|      W|       |  IIIII|
+       |       |  IIIII|      S|       |  IIIII|  IIIII|  IIIII|
+       |  IIIII|       |       |       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|       |       |
+  IIIII|  -----|       |       |       |       |       |       |
+       |       |       |       |       |       |       |       |
+  IIIII|       |  IIIII|       |  IIIII|  IIIII|  IIIII|       |
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,3)];Sherlock[index=1;pos=(1,3);moving_rule=LRUUR];Watson[index=2;pos=(0,5);moving_rule=DDLL];RobotC[pos=(0,3);type=C;dist=];RobotW[pos=(0,3);type=W;dist=2];RobotSW[pos=(0,3);type=SW;dist=3]]
+Sherlock HP_125 EXP_520
+Watson HP_6 EXP_34
+SherlockBag : Bag[count=4;MagicBook,MagicBook,MagicBook,MagicBook]
+WatsonBag : Bag[count=0;]
+---------------
+RESULT : The Criminal escaped

@@ -1,0 +1,1989 @@
+Configuration[
+MAP_NUM_ROWS=5
+MAP_NUM_COLS=6
+MAX_NUM_MOVING_OBJECTS=5
+NUM_WALLS=10
+ARRAY_WALLS=[(2,1);(0,3);(0,4);(2,2);(1,0);(0,3);(1,2);(2,1);(0,2);(3,0)]
+NUM_FAKE_WALLS=9
+ARRAY_FAKE_WALLS=[(1,4);(0,4);(4,0);(2,1);(2,2);(3,2);(3,2);(2,4);(2,4)]
+SHERLOCK_MOVING_RULE=DDR
+SHERLOCK_INIT_POS=(0,1)
+SHERLOCK_INIT_HP=124
+SHERLOCK_INIT_EXP=725
+WATSON_MOVING_RULE=U
+WATSON_INIT_POS=(3,4)
+WATSON_INIT_HP=475
+WATSON_INIT_EXP=103
+CRIMINAL_INIT_POS=(4,4)
+NUM_STEPS=26
+]
+
+*********************************************************
+ROUND : 0 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |      S|  IIIII|  IIIII|  IIIII|       |
+  IIIII|       |  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|       |
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(0,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 0 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|       |
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 0 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|       |
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 1 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      C|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 1 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      C|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 1 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      C|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 2 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 2 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 2 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 2 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 3 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 3 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 3 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 3 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 4 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 4 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 4 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 4 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 5 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      C|
+  -----|       |       |       |       |     02|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(4,5);type=W;dist=2]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 5 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      C|
+  -----|       |       |       |       |     02|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(4,5);type=W;dist=2]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 5 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      C|
+  -----|       |       |       |       |     02|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(4,5);type=W;dist=2]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 5 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|     C0|
+  -----|       |       |       |       |      2|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(4,5);type=W;dist=2]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 5 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|    C02|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(3,5);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 6 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|     02|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(3,5);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 6 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|     02|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(3,5);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 6 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|     02|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(3,5);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 6 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |      W|      2|
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,5);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 6 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=1;EnergyDrink]
+
+*********************************************************
+ROUND : 7 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=1;EnergyDrink]
+
+*********************************************************
+ROUND : 7 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=1;EnergyDrink]
+
+*********************************************************
+ROUND : 7 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=2;EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 7 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=2;EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 7 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=2;EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 8 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=2;EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 8 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=2;EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 8 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=2;EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 8 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=2;EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 8 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=3;EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 9 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=3;EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 9 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=3;EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 9 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 9 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 9 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 10 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 10 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 10 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 10 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 10 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=5;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 11 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=5;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 11 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=5;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 11 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=6;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 11 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=6;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 11 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=6;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 12 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=6;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 12 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=6;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 12 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=6;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 12 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=6;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 12 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=7;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 13 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=7;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 13 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=7;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 13 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=8;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 13 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=8;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 13 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=8;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 14 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=8;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 14 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=8;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 14 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=8;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 14 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=8;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 14 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=9;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 15 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=9;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 15 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=9;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 15 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=10;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 15 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=10;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 15 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=10;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 16 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=10;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 16 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=10;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 16 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=10;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 16 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=10;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 16 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=11;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 17 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=11;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 17 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=11;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 17 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=12;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 17 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=12;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 17 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=12;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 18 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=12;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 18 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=12;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 18 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=12;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 18 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=12;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 18 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=13;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 19 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=13;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 19 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=13;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 19 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=14;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 19 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=14;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 19 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=14;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 20 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=14;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 20 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=14;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 20 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=14;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 20 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=14;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 20 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 21 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 21 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 21 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 21 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 21 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 22 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 22 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 22 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 22 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 22 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 23 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 23 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 23 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 23 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 23 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 24 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 24 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 24 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|      0|
+  -----|       |       |       |       |      C|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 24 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 24 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|       |
+  -----|       |       |       |       |     C0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(4,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 25 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 25 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 25 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|      C|
+  -----|       |       |       |       |      0|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(4,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 25 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |  -----|       |
+  IIIII|       |  -----|       |     W2|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+
+*********************************************************
+ROUND : 25 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |  IIIII|  IIIII|  IIIII|       |
+  IIIII|      S|  IIIII|       |  -----|       |
+       |  IIIII|  IIIII|       |      2|       |
+  IIIII|       |  -----|       |      W|     C0|
+  -----|       |       |       |       |       |
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=5;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(1,1);moving_rule=DDR];Watson[index=2;pos=(3,4);moving_rule=U];RobotC[pos=(3,5);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_124 EXP_725
+Watson HP_475 EXP_103
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=15;EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink,EnergyDrink]
+---------------
+RESULT : The Criminal escaped

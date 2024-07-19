@@ -1,0 +1,1893 @@
+Configuration[
+MAP_NUM_ROWS=5
+MAP_NUM_COLS=6
+MAX_NUM_MOVING_OBJECTS=6
+NUM_WALLS=4
+ARRAY_WALLS=[(1,3);(4,5);(2,5);(2,5)]
+NUM_FAKE_WALLS=9
+ARRAY_FAKE_WALLS=[(3,1);(4,3);(1,2);(4,1);(0,3);(1,0);(4,2);(4,2);(4,2)]
+SHERLOCK_MOVING_RULE=RLLRDL
+SHERLOCK_INIT_POS=(4,0)
+SHERLOCK_INIT_HP=489
+SHERLOCK_INIT_EXP=178
+WATSON_MOVING_RULE=DR
+WATSON_INIT_POS=(0,2)
+WATSON_INIT_HP=192
+WATSON_INIT_EXP=746
+CRIMINAL_INIT_POS=(3,5)
+NUM_STEPS=22
+]
+
+*********************************************************
+ROUND : 0 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |      W|  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |      C|       |
+      S|  -----|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=6;Criminal[index=0;pos=(3,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(0,2);moving_rule=DR]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 0 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |      W|  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |      C|       |
+       |      S|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=6;Criminal[index=0;pos=(3,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(0,2);moving_rule=DR]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 0 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |      W|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |      C|       |
+       |      S|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=6;Criminal[index=0;pos=(3,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(1,2);moving_rule=DR]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 1 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |      W|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |      C|
+       |      S|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=6;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(1,2);moving_rule=DR]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 1 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |      W|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |      C|
+      S|  -----|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=6;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(1,2);moving_rule=DR]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 1 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |      W|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |      C|
+      S|  -----|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=3;capacity=6;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(1,2);moving_rule=DR]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 2 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |      W|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |      C|
+      S|  -----|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(3,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(1,2);moving_rule=DR];RobotC[pos=(3,5);type=C;dist=]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 2 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |      W|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |      C|
+      S|  -----|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(3,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(1,2);moving_rule=DR];RobotC[pos=(3,5);type=C;dist=]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 2 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |      W|       |       |  IIIII|
+       |  -----|       |       |      C|
+      S|  -----|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(3,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(2,2);moving_rule=DR];RobotC[pos=(3,5);type=C;dist=]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 2 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |      W|       |       |  IIIII|
+       |  -----|       |       |      C|
+      S|  -----|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(3,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(2,2);moving_rule=DR];RobotC[pos=(3,5);type=C;dist=]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 3 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |      W|       |       |  IIIII|
+       |  -----|       |       |      C|
+      S|  -----|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(2,2);moving_rule=DR];RobotC[pos=(3,4);type=C;dist=]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 3 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |      W|       |       |  IIIII|
+       |  -----|       |       |      C|
+       |      S|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(2,2);moving_rule=DR];RobotC[pos=(3,4);type=C;dist=]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 3 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |      W|       |  IIIII|
+       |  -----|       |       |      C|
+       |      S|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(2,3);moving_rule=DR];RobotC[pos=(3,4);type=C;dist=]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 3 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |      W|       |  IIIII|
+       |  -----|       |       |      C|
+       |      S|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(3,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(2,3);moving_rule=DR];RobotC[pos=(3,4);type=C;dist=]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 4 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |      W|       |  IIIII|
+       |  -----|       |       |      C|
+       |      S|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(3,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(2,3);moving_rule=DR];RobotC[pos=(3,5);type=C;dist=]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 4 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |      W|       |  IIIII|
+       |  -----|       |       |      C|
+       |      S|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(3,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(2,3);moving_rule=DR];RobotC[pos=(3,5);type=C;dist=]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 4 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |      W|      C|
+       |      S|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(3,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(3,3);moving_rule=DR];RobotC[pos=(3,5);type=C;dist=]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 4 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |      W|      C|
+       |      S|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=4;capacity=6;Criminal[index=0;pos=(3,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(3,3);moving_rule=DR];RobotC[pos=(3,5);type=C;dist=]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 5 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |      C|  IIIII|
+       |  -----|       |      W|       |
+       |      S|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(2,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(3,3);moving_rule=DR];RobotC[pos=(3,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 5 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |      C|  IIIII|
+       |  -----|       |      W|       |
+      S|  -----|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(2,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(3,3);moving_rule=DR];RobotC[pos=(3,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_192 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=0;]
+
+*********************************************************
+ROUND : 5 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |      C|  IIIII|
+       |  -----|       |       |      W|       |
+      S|  -----|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(2,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(3,4);moving_rule=DR];RobotC[pos=(3,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_183 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=2;ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 5 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |      C|  IIIII|
+       |  -----|       |       |      W|       |
+      S|  -----|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(2,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(3,4);moving_rule=DR];RobotC[pos=(3,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_183 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 5 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |      C|  IIIII|
+       |  -----|       |       |      W|       |
+      S|  -----|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(2,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(3,4);moving_rule=DR];RobotC[pos=(3,4);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_183 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 6 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|      C|       |
+       |       |       |       |  IIIII|
+       |  -----|       |       |      W|       |
+      S|  -----|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(1,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(3,4);moving_rule=DR];RobotC[pos=(2,4);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_183 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 6 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|      C|       |
+       |       |       |       |  IIIII|
+       |  -----|       |       |      W|       |
+       |      S|  -----|  -----|       |  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(1,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(3,4);moving_rule=DR];RobotC[pos=(2,4);type=C;dist=];RobotW[pos=(2,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_183 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 6 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|      C|       |
+       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(1,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(2,4);type=C;dist=];RobotW[pos=(2,4);type=W;dist=2]]
+Sherlock HP_489 EXP_178
+Watson HP_183 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 6 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|      C|       |
+       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(1,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(2,4);type=C;dist=];RobotW[pos=(2,4);type=W;dist=2]]
+Sherlock HP_489 EXP_178
+Watson HP_183 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 6 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|       |       |
+  -----|       |  -----|  IIIII|      C|       |
+       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(1,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(2,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_183 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 7 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|       |
+  -----|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(1,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_183 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 7 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|       |
+  -----|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(1,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_183 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 7 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|       |
+  -----|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(1,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_183 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 7 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|       |
+  -----|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(1,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_183 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 7 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|       |
+  -----|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=5;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(1,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_174 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 8 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(0,4);type=W;dist=4]]
+Sherlock HP_489 EXP_178
+Watson HP_174 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 8 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(0,4);type=W;dist=4]]
+Sherlock HP_489 EXP_178
+Watson HP_174 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 8 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(0,4);type=W;dist=4]]
+Sherlock HP_489 EXP_178
+Watson HP_166 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 8 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(0,4);type=W;dist=4]]
+Sherlock HP_489 EXP_178
+Watson HP_166 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 8 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(0,4);type=W;dist=4]]
+Sherlock HP_489 EXP_178
+Watson HP_166 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 8 - TURN : 5
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(1,4);type=W;dist=3]]
+Sherlock HP_489 EXP_178
+Watson HP_166 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 9 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(1,4);type=W;dist=3]]
+Sherlock HP_489 EXP_178
+Watson HP_166 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 9 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(1,4);type=W;dist=3]]
+Sherlock HP_489 EXP_178
+Watson HP_166 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 9 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(1,4);type=W;dist=3]]
+Sherlock HP_489 EXP_178
+Watson HP_166 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 9 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(1,4);type=W;dist=3]]
+Sherlock HP_489 EXP_178
+Watson HP_166 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 9 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(1,4);type=W;dist=3]]
+Sherlock HP_489 EXP_178
+Watson HP_158 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 9 - TURN : 5
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(2,4);type=W;dist=2]]
+Sherlock HP_489 EXP_178
+Watson HP_158 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 10 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(2,4);type=W;dist=2]]
+Sherlock HP_489 EXP_178
+Watson HP_158 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 10 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(2,4);type=W;dist=2]]
+Sherlock HP_489 EXP_178
+Watson HP_158 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 10 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(2,4);type=W;dist=2]]
+Sherlock HP_489 EXP_178
+Watson HP_151 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 10 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(2,4);type=W;dist=2]]
+Sherlock HP_489 EXP_178
+Watson HP_151 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 10 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(2,4);type=W;dist=2]]
+Sherlock HP_489 EXP_178
+Watson HP_151 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 10 - TURN : 5
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_151 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 11 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_151 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 11 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_151 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 11 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_151 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 11 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_151 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 11 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_144 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 11 - TURN : 5
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_137 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 12 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_137 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 12 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_137 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 12 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_125 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 12 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_125 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 12 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_125 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 12 - TURN : 5
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_125 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 13 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_125 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 13 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_125 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 13 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_125 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 13 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_125 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 13 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_119 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 13 - TURN : 5
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_114 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 14 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_114 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 14 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_114 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 14 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_104 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 14 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_104 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 14 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_104 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 14 - TURN : 5
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_104 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 15 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_104 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 15 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_104 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 15 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_104 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 15 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_104 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 15 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_99 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 15 - TURN : 5
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_95 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 16 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_95 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 16 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_95 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 16 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_87 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 16 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_87 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 16 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_87 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 16 - TURN : 5
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_87 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 17 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_87 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 17 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_87 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 17 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_87 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 17 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_87 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 17 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_83 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 17 - TURN : 5
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_79 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 18 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_79 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 18 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_79 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 18 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_73 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 18 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_73 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 18 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_73 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 18 - TURN : 5
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_73 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 19 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_73 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 19 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_73 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 19 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_73 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 19 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_73 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 19 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_70 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 19 - TURN : 5
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_67 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 20 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_67 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 20 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_67 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 20 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_61 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 20 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_61 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 20 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_61 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 20 - TURN : 5
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,5)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,4);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_61 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 21 - TURN : 0
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+      S|  -----|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,0);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_61 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 21 - TURN : 1
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_61 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 21 - TURN : 2
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_61 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 21 - TURN : 3
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(3,4);type=W;dist=1];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_61 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 21 - TURN : 4
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(3,4);type=W;dist=1]]
+Sherlock HP_489 EXP_178
+Watson HP_58 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+
+*********************************************************
+ROUND : 21 - TURN : 5
+      0|      1|      2|      3|      4|      5|
+       |       |       |  -----|      C|
+  -----|       |  -----|  IIIII|       |       |
+       |       |       |       |       |  IIIII|
+       |  -----|       |       |       |       |
+       |      S|  -----|  -----|      W|  IIIII|
+---------------
+LOG : 
+ArrayMovingObject[count=6;capacity=6;Criminal[index=0;pos=(0,4)];Sherlock[index=1;pos=(4,1);moving_rule=RLLRDL];Watson[index=2;pos=(4,4);moving_rule=DR];RobotC[pos=(0,5);type=C;dist=];RobotW[pos=(4,4);type=W;dist=0];RobotW[pos=(4,4);type=W;dist=0]]
+Sherlock HP_489 EXP_178
+Watson HP_56 EXP_746
+SherlockBag : Bag[count=0;]
+WatsonBag : Bag[count=4;ExcemptionCard,ExcemptionCard,ExcemptionCard,ExcemptionCard]
+---------------
+RESULT : The Criminal escaped
